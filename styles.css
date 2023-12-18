@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    background: #fff;
+}
+
+.navbar{
+    height: 100px;
+    background-color: white;
+    color: #333333;
+    display: flex;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 200px;
+}
+
+.logo{   
+    background-image: url("pictures/organic_store_logo.jpeg");
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    scale: 0.70;
+}
+
+.nav-items{
+    margin-top: 45px;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.nav-item1 a:link, .nav-item2 a:link, .nav-item3 a:link, .nav-item4 a:link, .nav-item5 a:link, .nav-item8 a:link{
+    text-decoration: none; 
+    color: #333333;
+}
+
+.nav-item1 a:visited, .nav-item2 a:visited, .nav-item3 a:visited, .nav-item4 a:visited, .nav-item5 a:visited, .nav-item8 a:visited{
+    text-decoration: none; 
+    color: #333333;
+}
+
+.nav-item1 a:hover, .nav-item2 a:hover, .nav-item3 a:hover, .nav-item4 a:hover, .nav-item5 a:hover{
+    color: #8bc34a;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.cartcolor{
+    color: #8bc34a;
+}
+
+.nav-item4{
+    padding-left: 420px;
+}
+
+.nav-item7{
+    padding-left: 0px;
+}
+
+.nav-item8{
+    padding-left: 10px;
+}
+
+.fa-basket-shopping{
+    color: #8bc34a;
+}
