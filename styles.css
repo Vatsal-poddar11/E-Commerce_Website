@@ -37,7 +37,7 @@ body{
 }
 
 .nav-items{
-    margin-top: 45px;
+    margin-top: 42px;
     font-size: 1rem;
     padding-left: 20px;
     padding-right: 20px; 
@@ -82,3 +82,94 @@ body{
 .fa-basket-shopping{
     color: #8bc34a;
 }
+
+/* Hero Section */
+
+.hero-section{
+    margin-top: 5px;
+    height: 700px;
+    background-color: #f8f6f392;
+    color: #333333;
+    display: flex;
+}
+
+.hero-section-image{
+    height: auto;
+    width: 52%;
+}
+
+.hero-image{
+    background-image: url("pictures/organic-products-hero.png");
+    height: 80%;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 8px;
+    background-size: cover;
+    scale: 0.92;
+}
+
+.hero-text{
+    height: auto;
+    width: 35%;
+    margin-top: 178px; 
+    margin-left: 63px;
+    position: relative;
+}
+
+.hero-sub-image{
+    background-image: url("pictures/logo-leaf-new.png");
+    height: 32px;
+    width: 72px;
+    margin-bottom: 40px;
+}
+
+.hero-heading{
+    font-family: Merriweather, serif;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+.hero-subheading{
+    font-family: Merriweather, serif;
+    font-size: 3.25rem;
+    color: #111111;
+    margin-bottom: 25px;
+}
+
+.hero-content{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.95rem;
+    line-height: 25.6px;
+    margin-bottom: 30px;
+}
+
+.hero-btn{
+    background-color: #508810cf;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom:17px;
+    padding-left: 34px;
+    padding-right: 34px;
+    border: none;
+    text-align: center;
+}
+
+.hero-button :hover{
+    background-color:#8bc34a;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.fa-cart-shopping{
+    margin-right: 15px;
+}
+
+/* .hero-back-img{
+    background-image: url("pictures/leaves-free-img.png");
+    position: absolute;
+} */
