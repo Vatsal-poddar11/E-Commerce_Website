@@ -113,7 +113,6 @@ body{
     width: 35%;
     margin-top: 178px; 
     margin-left: 63px;
-    position: relative;
 }
 
 .hero-sub-image{
@@ -169,7 +168,51 @@ body{
     margin-right: 15px;
 }
 
-/* .hero-back-img{
-    background-image: url("pictures/leaves-free-img.png");
-    position: absolute;
-} */
+.site-properties{
+    height: 215px;
+    background-color: #111111;
+}
+
+.site-property-items{
+    margin: 35px;
+    height: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-box{
+    height: 128px;
+    padding: 35px 25px;
+    background-color: #333333;
+    border-radius: 3px;
+    color: #ffffff;
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.grid-box a{
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+.grid-box a i{
+    font-size: 24px;
+    color: #8bc34a;
+}
+
+.grid-box b{
+    font-family: Merriweather, serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.grid-box p{
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 40px;
+}
