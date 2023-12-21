@@ -168,6 +168,8 @@ body{
     margin-right: 15px;
 }
 
+/* Site Properties */
+
 .site-properties{
     height: 215px;
     background-color: #111111;
@@ -216,3 +218,78 @@ body{
     font-family: 'Open Sans',sans-serif;
     padding-left: 40px;
 }
+
+/* Best Selling Products Section */
+
+.best-selling-products-section{
+    height: 700px;
+    text-align: center;
+    margin-top: 140px;
+    position: relative;
+}
+
+.bsp-heading{
+    font-size: 34px;
+    font-family: Merriweather, serif;
+    margin-bottom: 18px;
+    color: #111111;
+}
+
+.bsp-img{
+    margin-bottom: 35px;
+}
+
+.products-container{
+    margin: 25px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.products-container h4{
+    font-size: 16px;
+    color: #111111;
+    font-family: Merriweather, serif;
+    padding-bottom: 4px;
+}
+
+.bsp-product{
+    height: 285px;
+    width: 285px;
+    padding-bottom: 13px;
+}
+
+.bsp-type{
+    font-size: 13.6px;
+    font-family: 'Open Sans',sans-serif;
+    color:#333333;
+    padding-bottom: 9px;
+}
+
+.bsp-star-rating{
+    font-size: 18.712px;
+    color: #111111;
+    padding-bottom: 1px;
+}
+
+.bsp-product4 span{
+    color: #333333a9;
+    padding-right: 6px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.bsp-price{
+    font-size: 14.4px;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    font-weight: 800;
+}
+
+.bsp-bottom-img{
+    position: absolute;
+    width: 90px;
+    bottom: 0;
+    right: 45%;
+}
+
