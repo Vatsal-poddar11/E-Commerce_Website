@@ -373,3 +373,49 @@ body{
     padding-left: 10px;
 }
 
+.banner-section{
+    height: 160px;
+    background-color: #111111;
+}
+
+.banner-section-content-container{
+    margin: 0 auto;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 64px 32px; */
+}
+
+.banner-section-content h4{
+    font-size: 34px;
+    font-family: Merriweather, serif;
+    color: #ffffff;
+    line-height: 44px;
+}
+
+.banner-section-outer{
+    height: 100px;
+    background-color: #F8F6F3;
+}
+
+.banner-section-outer-container{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.banner-section-outer-container h4{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Merriweather, serif;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+}
