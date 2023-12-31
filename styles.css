@@ -426,8 +426,8 @@ body{
 }
 
 .customer-reviews-section{
-    margin-top: 80px;
-    height: 750px;
+    margin-top: 30px;
+    height: 580px;
     width: 100%;
     background-color: #FEFEFD;
     /* position: relative; */
@@ -528,4 +528,35 @@ body{
 
 .cust-rev-btn{
     margin-left: 52px;
+}
+
+.featured-brands{
+    height: 160px;
+    width: 100%;
+    background-color: #F8F7F4;
+    
+}
+
+.featured-brands-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-brands-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.fb-para{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    padding: 35px;
+    color: #333333;
+    line-height: 30px;
+    text-align: left;
+    font-style: bold;
+    font-weight: 700;
 }
