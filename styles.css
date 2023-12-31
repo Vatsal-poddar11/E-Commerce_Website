@@ -424,3 +424,108 @@ body{
 .trending-products{
     margin-top: 100px;
 }
+
+.customer-reviews-section{
+    margin-top: 80px;
+    height: 750px;
+    width: 100%;
+    background-color: #FEFEFD;
+    /* position: relative; */
+    text-align: center;
+}
+
+.customer-reviews-content{
+    display: flex;
+    height: 450px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    gap: 3%;
+}
+
+.cust-rev-box1{
+    height: 420px;
+    width: 32%;
+    border-radius: 5px;
+}
+
+.cust-rev-box3{
+    height: 420px;
+    width: 32%;
+    border-radius: 5px;
+}
+
+.cust-rev-box2{
+    height: 400px;
+    width: 32%;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(40, 40, 40, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cust-back-img{
+    position: absolute;
+    filter: brightness(40%);
+}
+
+.cust-rev-box1-content{
+    height: 400px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(40, 40, 40, 0.1);
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.cust-rev-box3-content{
+    height: 400px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(40, 40, 40, 0.1);
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.cust-mid-content{
+    position: absolute;
+    padding: 40px;
+}
+
+.cust-mid-content h2{
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 44.2px;
+    font-family: Merriweather, serif;
+    padding-bottom: 15px;
+}
+
+.cust-mid-content p{
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    padding-bottom: 65px;
+}
+
+.stars{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.cust-des{
+    padding-bottom: 20px;
+}
+
+.img-text{
+    display: flex;
+    justify-content: center;
+}
+
+.img-text p{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.cust-rev-btn{
+    margin-left: 52px;
+}
